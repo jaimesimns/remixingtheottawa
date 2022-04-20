@@ -115,7 +115,7 @@ font-family: Arial, Helvetica, sans-serif;
 border-style: solid;  
 border-width: 0px;  
 border-color: rgba(0, 0, 0, 0);  
-background: rgba(255, 255, 255, 0);
+background: rgba(0, 0, 0, 0);
 padding-top: 0em;
 padding-bottom: 0em;
 padding-left: 0em;
@@ -123,33 +123,35 @@ padding-right: 0em;
 border-radius: 0em;
 margin-bottom: 0px;
 margin-top: 0px;
-line-height: 1em;
 }
 
-h1 {color: lightgray; text-align: left; size: large;}
-h2 {color: white; text-align: left;   font-style: italic;
+h1 {color: white; text-align: center; background-color: teal; border: 0px solid white; border-radius: 10px; margin-top: 0px; margin-bottom: 15px; margin-left: auto; margin-right: auto;
+width: 100%;
 }
-h3 {color: lightgray; text-align: center; background-color: teal; border: 2px solid teal; border-radius: 10px;
+
+h2 {color: white; text-align: left; font-style: italic;
+}
+h3 {color: black; text-align: left; background-color: rgba(255, 255, 255, 0.5); border: 2px solid white; border-radius: 10px;
 margin-top: 15px;
 margin-bottom: 15px;
 margin-right: 100px;
 margin-left: 100px;}
-h4 {color: white; text-align: center; background-color: rgba(0, 0, 0, 0.5); border: 0px solid grey; border-radius: 0px;
+
+h4 {color: black; text-align: left; background-color: rgba(255, 255, 255, 0.8); border: 0px solid white; border-radius: 20px; font-size: medium; font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
 margin-top: 0px;
-margin-bottom: 15px;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+  padding-left: 1em;
+padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
-h5 {color: black; text-align: center; background-color: white; border: 2px solid white; border-radius: 10px;
-margin-top: 15px;
-margin-bottom: 15px;
-margin-right: 100px;
-margin-left: 100px;
-}
+
 h6 {color: black; text-align: center; margin-top: 0px; margin-bottom: 0px;}
 
-.passage a {color: white; margin-top: 0px; margin-bottom: 0px}
+.passage a {color: white; margin-top: 10px; margin-bottom: 10px; }
 .passage a:hover {color: teal; margin-top: 0px; margin-bottom: 0px}
 
 img { 
@@ -177,10 +179,9 @@ margin-bottom: 0px;
 .imagecontainer2 > img {
   max-width: 100%;
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">$('#ui-bar').remove();
-$(document.head).find('#style-ui-bar').remove();</script><tw-passagedata pid="1" name="Home" tags="home" position="405,171" size="100,100">&lt;a data-passage=&quot;TRACKS&quot; class=&quot;link-internal link-image&quot;&gt;
+$(document.head).find('#style-ui-bar').remove();</script><tw-passagedata pid="1" name="HOME" tags="home" position="405,171" size="100,100">&lt;a data-passage=&quot;TRACKS&quot; class=&quot;link-internal link-image&quot;&gt;
 &lt;img src=&quot;https://user-images.githubusercontent.com/65786405/162642516-c690737e-4938-44da-a952-241dd6ed83f7.png&quot; alt=&quot;Album cover with the Ottawa River in white, with decorative squiggly lines spreading out from it. Text on left says &#39;New Album, Remixing the Ottawa, Click to Listen&quot;&gt;
 &lt;/a&gt;</tw-passagedata><tw-passagedata pid="2" name="TRACKS" tags="tracks" position="255,321" size="100,100">&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/162643816-19f26706-ca79-4b65-ab65-4cce2a1d2651.png&quot;&gt;
-
 
 !!TRACK 1: Merging Temporalities (Deep Time)
 &lt;audio controls&gt;
@@ -200,7 +201,80 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 &lt;/audio&gt;
 
-Sample by tree type
+!!TRACK 4: Colonial Connections (Settler Shanties)
+&lt;audio controls&gt;
+  &lt;source src=&quot;index/spruce.wav&quot; type=&quot;audio/wav&quot;&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+
+!!TRACK 5: &#39;Authentic&#39; Excursions (Contemporary Tourism)
+&lt;audio controls&gt;
+  &lt;source src=&quot;index/Track 5.mp3&quot; type=&quot;audio/wav&quot;&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+
+!!TRACK 6: Hymns, Dispossession, and Disease (The Oblates)
+&lt;audio controls&gt;
+  &lt;source src=&quot;index/Track 6.mp3&quot; type=&quot;audio/wav&quot;&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+
+&lt;div class=&quot;imagecontainer2&quot;&gt;
+&lt;a data-passage=&quot;HOME&quot; class=&quot;link-internal link-image&quot;&gt;
+	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/164319202-7ab5a58f-c162-4c8b-808e-507876bfb39e.png&quot; style=&quot;max-width: 300px&quot;&gt;
+&lt;/a&gt;
+&lt;a data-passage=&quot;NOTES&quot; class=&quot;link-internal link-image&quot;&gt;
+	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/164319208-4ae5d2ca-590a-47c9-b674-ee3e0557a12c.png&quot; style=&quot;max-width: 300px&quot;&gt;
+&lt;/a&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="toss-offs" tags="" position="525,171" size="100,100">&lt;div class=&quot;imagecontainer2&quot;&gt;
+&lt;a data-passage=&quot;TRACKS&quot; class=&quot;link-internal link-image&quot;&gt;
+	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/162639534-57cb9bd5-022f-4c5c-b6d8-f05b997a91ae.png&quot; style=&quot;max-width: 120px&quot;&gt;
+&lt;/a&gt;
+&lt;a data-passage=&quot;ESSAY&quot; class=&quot;link-internal link-image&quot;&gt;
+	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/162640483-0cba2407-bedf-4029-8072-c943cd97c1ed.png&quot; style=&quot;max-width: 100px&quot;&gt;
+&lt;/a&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="NOTES" tags="" position="330,471" size="100,100">&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/164320643-e6c693df-eb86-48f4-a166-3f367326e242.png&quot;&gt;
+
+&lt;h4 style&gt; The point of this MRE is to use sound as a performance to engage with these histories of the Ottawa River, while using steamboats as connections to those histories. In the project, steamboats are not the focus of every track. Instead, they are present in each track, serving to intertwine the Ottawa River with its connecting histories. These quiet ties represent the way that steamboat imperialism played an often-unacknowledged role in the colonial re-development of Ottawa River and surrounding Ottawa Valley. Steamboats were a key technology in the colonial settlement of the region, in resource extraction, and in Indigenous dispossession. To various degrees, steamboats were used for forwarding, settlement, tourism, religious colonization, and supporting the logging industry (both the timber trade and pulp and paper mills), railways, and mining to various degrees. Additionally, they served as vectors of disease and were both catalysts and aids for the restructuring of the river in some areas. Settler reliance on steamboats made them an invaluable piece of early industrial infrastructure, and they played an indispensable role in the movement of produce, supplies, livestock, and other necessary freight. 
+
+Using various aspects of performance and sound theory to look “crookedly” at the associated histories, this project offers creative sonic interventions that engage with some aspect of the histories to elucidate those aforementioned ties. Each audio track focuses on one specific historical anecdote or concept, and uses a form of performance or sound theory to offer a different way of looking at these histories and their impacts in regards to resource extraction and settler colonialism. Though the tracks may not always appear to directly relate to steamboats, each track also represents an important aspect of the history of steamboats on the Ottawa River. Histories are not singular, but instead emerge in concert with one another. By focusing on these interconnecting histories, represented through creative sonic interventions, we are able to look crookedly and see how steamboats played an integral role in settler colonialism and resource extraction along the Ottawa River and throughout the surrounding area.
+ 
+The album tracks are able to be downloaded, to encourage further remixing and thereby creating space for other histories to be shared through those remixes. This allows for an embodied experience of the project, and lets listeners imagine the differences between the present and past landscapes and histories. Following Svensson (2021), walking can serve as both a methodological device, where the listener is invited to pay attention to their “own positionality and experiences, and as a form of embodied and emplaced experience of and with heritage sites and urban changes.&quot;  In cities such as Ottawa, which have undergone active heritagization, walking is “an important aspect of how people engage with and experience heritage that draws attention to its emplaced, performative and transformative qualities.&quot; &lt;/h4&gt;  
+
+!Track 1: Merging Temporalities (Deep Time)
+&lt;h4 style&gt; The project begins with the river as “witness, archive, and co-creator.”  Though it is not possible to record or recreate the river as it was prior to the 19th century, it is possible to represent a sense of what the river once was like by engaging with its deep time (geologic history). This track combines both the present and the historic past, but also the deep past.
+
+Certain things remain true: at various seasons and various places, the river has water, ice, and rapids. Using these as building blocks, this track maps the 1,271 kilometers of the Ottawa River. Beginning at Lake Temiskaming, it attempts to create a sonic image of the movement of water along the Ottawa River through the inclusion of recordings of rapids and swirling currents, ice crystals, and hydrophonic (underwater) recordings from various locations along the Ottawa River.  Those sonic elements are likely expected when listening to a track about a river, but this track also aims to remind us that “[o]ur engagement with the world is always interdependent and situated within environments and place” and that “listening is a way into feeling these relations.&quot;  To that end, the track also engages with the deep time of the Ottawa River, including sound clips meant to remind listeners of the wider environment, ecosystems, networks, and histories to which the Ottawa River both connects and comes from. The river is not just a river, but a passageway, home, food source, and active participant in the shaping of the environmental, human, and non-human history of the Ottawa Valley. The river also has its own history, beyond the presence of homo sapiens. 
+
+The deep time of the Ottawa River began almost 570 million years ago in the late Cambrian and early Paleozoic era, when the area was covered by a tropical sea.  Evidence of this time is recorded through the presence of trilobites, cephalopods, crinoids, and other fossils preserved in the rocks underneath the Ottawa River. Around 440 million years ago, the sea receded, and left behind dry land. Echoes of this past are missing from the geologic record, as the land was exposed to constant erosion.  Evidence from elsewhere can fill these gaps, and bring to life ideas of what dinosaurs or other early creatures roamed.  
+Around 175 million years ago, with the formation of the Ottawa-Bonnechere and Timiskaming grabens (rift valleys), our geologic knowledge begins to return. These grabens were formed in the Late Proterozoic and Early Paleozoic as part of the Iapetus Ocean, and re-activated during the Mesozoic period as part of the breakup of Pangaea.  The grabens form a crucial part of the Ottawa Valley, as the Ottawa River flows along their fault line. 
+
+After the Mesozoic comes the Cambrian period, which is the current period of geologic time (66 million years ago to present), and includes the Quaternary period (2.58 million years ago to present). During this time, ice sheets covered and re-covered the area, leaving behind much of the sediment that covers the Ottawa Valley today. The ice sheets depressed the Ottawa Valley and other areas formed by grabens to below sea level, and so as the last glacial ice sheet retreated at during the Younger Dryas period (12,900 to 11,700 BP ), the graben areas were filled with sea water from the Atlantic Ocean. The area became known as the Champlain Sea, lasting approximately 3,000 years with its water level almost 150 metres above the current landscape.  
+
+Clay deposits from the Champlain Sea has preserved much of the marine life, including evidence of three different species of whales (belugas, fin whales, and bowhead whales), walruses, and fish such as capelins.  The Champlain Sea and its clay deposits, along with the river’s movements since then, have played a major role in producing the distinctive forests, wetlands, and agricultural areas of the Ottawa Valley. 
+
+The track is not organized into strict time segments based on eras, but instead merges temporalities to represent how we make and remake the past in the present through creative interpretation and performance. The recent past and the deep past are performed simultaneously, representing how the deep past informs both the recent past and the present, and how evidence of deep time is still present in the here-and-now. As per Smolicki and Campo (2021), &quot;For environmental humanities, nature, and culture, history and presence, matter and spirit, are not distinctive events or entities that lend themselves to be organized into some easily comprehensible dichotomies or linear, axial progressions. Instead, they are always-already entangled realms; to grapple with them, one needs to focus on the relations and interdependencies they form over time and across multiple layers of matter, belief, thought, and discourse.&quot;
+
+Ideally, the inclusion of both expected (e.g., water noises) and unexpected (e.g., whale and walrus calls, human voices) will encourage listeners to reflect on how they segment thoughts about time and about environments, to move towards acknowledging the interdependence of places, temporalities, and histories. &lt;/h4&gt;
+
+!Track 2: Rising Waters (Remixing the River)
+&lt;h4 style&gt; This track focuses on expressing the various restructurings of the Ottawa River as a result of colonial activities. The goal of this track is to express how drastically colonial activity has changed the landscape of the Ottawa River, through the previously discussed dams and canals as well as logging and steamboat history. It takes the watery base layer of Merging Temporalities (Deep Time) and its sonic mapping of pre-colonial rapids, and remixes it to represent the Ottawa River’s colonial impact on water movements.  The remixing of the track relies on using historical hydrometric data from along the Ottawa River, as well as reflections from a 2008 log raft ride taken by retired lumbermen down the Ottawa River.  This data was compiled from various hydrometric stations between 1850 and 1988 by the National Hydrologic Services, Environment and Climate Change Canada’s Water Survey of Canada (see Appendix 1).  Together, these inform how the river’s movement and tempo have changed, and direct to what degree the volume and speed of Merging Temporalities is manipulated to create this new track.
+
+Compared to Merging Temporalities (Deep Time), the tempo of Remixing the River is slower and more sluggish. There are fewer drops in tone, and rapids are less prominent or entirely missing. Different sound clips augment the base track – instead of a focus on early more-than-human history and early human history, this track presents noises from colonial activities that changed the river. Noises from various logging industry activities such as tree cutting and log squaring are presented, along with steamboat whistles, and raucous laughter from tourism. Data from my earlier “Shipwrecks of the Ottawa River and Rideau Canal” project is incorporated through the sound of sonar blips, marking where steamboat wreck sites are located along the river (see Appendix 2).  Steamboat whistles represent where steamboat landings or wharves were, and sawmill noises represent the history of environmental pollution through marking where underwater sawdust dunes are.  These sounds are included to ensure that not only the above-water changes are represented in the track, but that the underwater changes are as well. Together, this track represents the impact of colonial activity and its associated restructuring of the Ottawa River. &lt;/h4&gt;
+
+!Track 3: Hearing Silence (Frequency Spectrum Analysis)
+&lt;h4 style&gt; This track engages with the various stages of logging (timber, sawn lumber, pulp and paper) that occurred throughout the Ottawa Valley in the nineteenth and twentieth centuries, all of which were supported in some way by steamboats.  Steamboats also consumed mass quantities of logged wood in the form of a cord (approximately seven-hundred pieces of stacked foot-long wood logs), to fuel their movement along the Ottawa River. For the 1822 season, the Perseverance, which ran the eighteen kilometres from Lachine to the Cascades or Châteauguay near daily, required six hundred cords of wood.  This was approximately 420,000 logs of hemlock or tamarack per year, often taken from as close to the river as possible. 
+
+This track heavily relies on data from a series of 1783 surveyors’ notebooks, held by the Survey and Mapping Branch of the Ministry of Natural Resources  and analyzed in Danneyrolles, Arsenault, and Bergeron (2016).   Working for the Crown, surveyors laid out colonial boundaries (counties, townships, land lots) and described the “vegetation, hydrology, topography and soils.” 
+Danneyrolles, Arseneault, and Bergeron (2016) analyzed thirty-six surveyor log books, representing sixteen townships and ten forest concessions between 1874 and 1935. This analysis resulted in 5207 pre-settlement observations, spread throughout the study area of 4175 km2 in the Témiscamingue region of Québec, covering the entire eastern and northern shores of Lake Temiskaming (see Appendix 3).  
+ 
+The data provides valuable insight on the forests before major colonial settlement and logging occurred. These forests were not necessarily pristine or untouched, as the Algonquin practised fire management for forest sustainability and other purposes, but the forests’ composition and size were very different from the forests as they appear today.  Pre-settlement, spruces, balsam fir, and paper birch were the most common, followed by pines, poplars, white cedar, and yellow birch. Post-settlement and logging, conifers have been replaced by early- and mid-successional deciduous trees (trees that grow easily after disturbance, such as settlement, logging, or fire). Early-successionals such as poplar, paper birch, and aspen have increased, as have mid-successionals such as maple. Pre-industrially dominant conifers such as spruce, fir, and pine have decreased. 
+
+To engage with this history, the track leans on Bernie Krause, a sound ecologist. His work focuses on capturing ecosystem soundscapes in natural areas, and performing frequency spectrum analysis to examine the ranges of sound present within the soundscapes.  Krause’s work has shown that in healthy ecosystems such as an old growth forest, “living creatures fill every possible frequency band in the sound spectrum, while the frequency spectrums of more recently developed ecosystems, like forests regrown after extensive logging and clear cutting, have prominent gaps in the spectrum.” 
+
+This track uses the surveyor tree composition data to inform what the pre-colonial settlement composition might have been. As logging practices shift over time, so too do certain frequencies, to represent the ecosystems associated with the types of trees being logged. The absence of certain noise bands is represented by the absence of bird, insect, and animal noises that rely on certain types of trees to survive (see Appendix 4). As those trees disappear over time, in various stages, so too do the associated noises. There are occasional rebounds in certain tree species and their associated noises, depending on how quickly the species recovers after disturbance. Without the knowledge of what the old-growth was like, shifting baseline syndrome would lead us assume that the forest composition that we see today in the region is the forest as it has always been, both in regards to quantity but also in regards to composition. This track tries to challenge that, and to express how our understanding of the forest and its history is constructed as a result of logging activities. 
+
+INDIVIDUAL SAMPLES
 Aspen
 &lt;audio controls&gt;
   &lt;source src=&quot;index/aspen.wav&quot; type=&quot;audio/wav&quot;&gt;
@@ -248,26 +322,44 @@ Spruce
   &lt;source src=&quot;index/spruce.wav&quot; type=&quot;audio/wav&quot;&gt;
 Your browser does not support the audio element.
 &lt;/audio&gt;
+&lt;/h4&gt;
 
-!!TRACK 4: Colonial Connections (Settler Shanties)
-Forthcoming - will be completed by end of day Wednesday
+!Track 4: Colonial Connections (Settler Shanties)
+&lt;h4 style&gt; When acknowledging both Canada and this history, of steamboats and its connections in the Ottawa Valley, as settler colonial, it is relevant to note where the settlers came from. Quarterly immigration data, from the Parliament of Canada’s Sessional Papers can help provide an answer, though we can also look at non-traditional sources such as logging songs, or shanties (alternatively, chanteys or chanties). David Dunn noted that “the meaning of traditional music leans toward the celebration of human shaping and manipulation of the environment,” and so examining connections within traditional settler music offers insight regarding past musical traditions and their associated activities. 
 
-!!TRACK 5: &#39;Authentic&#39; Excursions (Contemporary Tourism)
-&lt;audio controls&gt;
-  &lt;source src=&quot;index/Track 5.mp3&quot; type=&quot;audio/wav&quot;&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;
+This track focuses on representing the international colonial connections of the Ottawa Valley through song, both in regards to logging and in settlement, since those histories are so intertwined. Steamboats played large supporting roles in both industries, towing log-filled barges and booms, and carrying settlers deep into the Ottawa Valley. This track reveals the Ottawa Valley’s connections to Britain as a colonial power and its links to its colonies, through the common refrains, calls, and melodies of Canadian logging songs, Australian sheep shearing and bush music, New Zealand sea shanties, the American national anthem (as well as shipping songs and frontier songs), and British drinking songs. Each of the songs mention places and activities specific to each region, but maintain commonalities that show their roots in British drinking song tradition. They’re often referred to as “work” or “occupational” songs, and share similar ‘calls,’ such as “come all ye - fellows,” which appears in various forms - often with ‘jolly’ or ‘young’ filling in the space. 
 
-!!TRACK 6: Hymns, Dispossession, and Disease (The Oblates)
-&lt;audio controls&gt;
-  &lt;source src=&quot;index/Track 6.mp3&quot; type=&quot;audio/wav&quot;&gt;
-Your browser does not support the audio element.
-&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="3" name="toss-offs" tags="" position="525,171" size="100,100">&lt;div class=&quot;imagecontainer2&quot;&gt;
-&lt;a data-passage=&quot;TRACKS&quot; class=&quot;link-internal link-image&quot;&gt;
-	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/162639534-57cb9bd5-022f-4c5c-b6d8-f05b997a91ae.png&quot; style=&quot;max-width: 120px&quot;&gt;
+Such calls are present in many of the Ottawa Valley logging songs, such as “The Lumbercamp Song,” as well as Australian songs such as “Three Jolly Lads Are We,” American songs such as “Buffalo Hunters,” and British drinking songs such as “Fathom the Bowl.” It also appears in various Canadian, American, Scottish, and New Zealand maritime songs, often in regards to whaling. For the purpose of keeping things in scope, this track mostly focuses on land-based activities, but those style of songs also have deep colonial connections on the water too.
+
+Though this track is not explicitly environmental, it draws on the same principles of shifting baseline syndrome. As decades pass and as settlers become more settled, the shared roots of these song traditions in colonial activities are not always as acknowledged. Bringing attention to the connections of these song traditions and their use in colonial logging, settlement, bush music, etc. act as evidence of settler colonial harms and linkages between Britain as a colonial power and the United States, Canada, Australia, and New Zealand as settler-colonial colonies. 
+
+Songs sampled:
+&quot;Musselburgh Field&quot; - Raymond Crooke (Britain/Scotland)
+&quot;The Lumbercamp Song&quot; - Wakami Wailers (Canada, Ottawa Valley)
+&quot;Lachlan Tigers&quot; - Bushwackers Band (Australia)
+&quot;The Station Cook&quot; - John Thompson (Australia)
+&quot;The Bigler&#39;s Crew&quot; - Lee Murdock (United States of America)
+
+These songs likely share the same origin, which was the British &quot;Wigmore&#39;s Galliard,&quot; originally composed for lute. Other songs with the same tune include: &quot;Two Professional Hums&quot; (Australia), &quot;Fisherrow&quot; (Ireland), &quot;The Dogger Bank&quot; (United States), &quot;The Grimsby Fisherman&#39;s Song&quot; (Britain), &quot;Three Jolly Lads Are We&quot; (Australia), &quot;The Herring Gibbers&quot; (Canada, Newfoundland), &quot;The Knickerbocker Line&quot; (United States), &quot;The Light on Cape May&quot; (United States), and &quot;The Crummy Cow&quot; (Ireland/United States), among others. &lt;/h4&gt;
+
+!!Track 5: ‘Authentic’ Excursions (Contemporary Tourism)
+&lt;h4 style&gt; This track focuses on the use of steamboats for tourism. As noted earlier in the Tourism &amp; Colonial Connections section, the 1819 launch of the steamboat Ottawa on Lake St. Louis “led to a new class of traveller – the tourist – on the St. Lawrence.”  The Ottawa served as a ferry between Lachine and Châteauguay, with its trip becoming known as a “leisure trip for those with money.”  The Ottawa may have been the first use of steamboats as a tourist vessel in the area, but it was far from the last. Steamboat tourism soon grew wherever there was settlement and sufficient funds. After official passenger travel had ceased on the Upper Ottawa in 1879, many of the steamboats were given a second life as excursion vessels.  The Victoria was launched by the Pembroke Navigation Company (1897-1912) in 1879, and ran daily trips from Pembroke to Des Joachims during the summer months.  On Saturday nights, the trip involved a stayover at Hotel Pontiac, near Fort William. Passengers would role-play as loggers, partaking “in ‘traditional’ lumbermen’s meals and danc[ing] as part of their voyage up the Ottawa.”  As they passed Oiseau Rock (Migizi Kiishkaabikaan), a 150-foot-tall rock face and important Algonquin pictograph site, the passengers would “shout or honk the ship’s horn to hear the rock’s grand, saturated echo.”  
+
+This track uses the idea that “authentic representations need not be accurate.”  According to Laura Saxton (2020), authenticity refers to “an impression of accuracy,” in that sometimes being faithful to the source means expressing the reasoning or feelings behind the detail as opposed to faithfully recreating that detail.  In reference to Walter Benjamin and other performance theorists, sometimes the goal is to recreate the aura instead of an exact replica of the original.  To that end, this track aims to recreate an ‘authentic’ (as opposed to accurate) tourist excursion on the Victoria, going from Pembroke to Oiseau Rock to Fort William to Des Joachims. Instead of playing the old logging songs, which often originated anywhere between five and forty years prior to the 1897-1911 excursions, this ‘authentic’ experience aims to reproduce a modern version of the experience.  To express to contemporary audiences a sense of how the logging songs would have been ‘top hits’ of their day, and how the excursions could be compared to modern party boats, the track mixes ‘Top 40’ hits from the past forty years and includes an Oiseau Rock experience and sounds of dancing. &lt;/h4&gt;
+
+!!Track 6: Hymns, Dispossession, and Disease (The Oblates)
+&lt;h4 style&gt; Track 6 is intended to confront religious colonization, settlement, and disease, by drawing on a December 25, 1848 report from the ‘Mission de la Baie de Hudson’ by the Reverend-Père Jean-Nicolas Laverlochère of the Missionary Oblates of Mary Immaculate. In it, he mentions his mission to visit the Algonquin of the Abitibi and Lake Temiskaming region. In May of that year, he had encountered many individuals who were sick and dying as a result of settler contact.  Settlers, priests, and logging crews brought scarlet fever, measles, scrofula, and tuberculosis to the Indigenous nations in the area, who did not have natural immunity against the diseases. 
+	
+As part of the report, Laverlochère asked for hymn books to bring comfort to the dying Algonquin converts. The track mixes Catholic hymns from the period with settlement data from the colonization venture led by the Oblates, under the name of “La Société de la Colonisation de Lac Temiskaming.” In 1884, they brought the first six settlers to the region using the steamboat Mattawan.  Steamboats continued to be used for their settlement purposes, including the Argo in August 1886, bringing immigrants from France and Belgium to settle under the colonization scheme.  Though there were a few settlers there prior to the Oblates’ colonization venture, the Oblates were directly responsible for the majority of settlers in the area (see Appendix 5). They also made significant efforts to encourage settlement in the region, running a fleet of steamboats as well as a small railway to improve access to the area.
+
+This track mixes Catholic hymns from the period with sounds of disease, to represent the increasing amounts of settlers brought to the region by the Oblates. It is meant to forefront the history of religious colonization, settlement, and disease, to highlight the harms of settler presence in the Lake Temiskaming region. &lt;/h4&gt;
+
+&lt;div class=&quot;imagecontainer2&quot;&gt;
+&lt;a data-passage=&quot;HOME&quot; class=&quot;link-internal link-image&quot;&gt;
+	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/164319202-7ab5a58f-c162-4c8b-808e-507876bfb39e.png&quot; style=&quot;max-width: 300px&quot;&gt;
 &lt;/a&gt;
-&lt;a data-passage=&quot;ESSAY&quot; class=&quot;link-internal link-image&quot;&gt;
-	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/162640483-0cba2407-bedf-4029-8072-c943cd97c1ed.png&quot; style=&quot;max-width: 100px&quot;&gt;
+&lt;a data-passage=&quot;TRACKS&quot; class=&quot;link-internal link-image&quot;&gt;
+	&lt;img src=&quot;https://user-images.githubusercontent.com/65786405/164319958-fbbb0860-a605-4a3e-bff4-63bb8fae81c7.png&quot; style=&quot;max-width: 300px&quot;&gt;
 &lt;/a&gt;
 &lt;/div&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
