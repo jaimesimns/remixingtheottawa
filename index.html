@@ -32,6 +32,62 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -->
+<style>
+  /* Ensure the body behaves well on all device sizes */
+  body {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    font-size: 100%; /* Dynamic base font size */
+  }
+
+  /* Target the main SugarCube story container */
+  #story {
+    margin: 0 auto !important;
+    padding: 20px !important;
+    max-width: 800px !important; /* Limits desktop width so lines aren't too long to read */
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Make sure passages wrap and scale beautifully */
+  .passage {
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+    max-width: 100% !important;
+  }
+
+  /* --- Responsive Media Queries --- */
+
+  /* For Tablets and smaller desktops */
+  @media screen and (max-width: 768px) {
+    #story {
+      padding: 15px !important;
+    }
+    .passage {
+      font-size: 1.05rem !important;
+    }
+  }
+
+  /* For Mobile Phones */
+  @media screen and (max-width: 480px) {
+    #story {
+      padding: 10px !important;
+    }
+    .passage {
+      font-size: 1rem !important;
+    }
+    /* If you use the default SugarCube UI sidebar, this ensures it doesn't squish mobile */
+    #ui-bar {
+      width: 100% !important;
+      position: relative !important;
+    }
+    #ui-bar.stowed {
+      left: 0 !important;
+    }
+  }
+</style>
+	
 <script id="script-libraries" type="text/javascript">
 if(document.head&&document.addEventListener&&document.querySelector&&Object.create&&Object.freeze&&JSON){document.documentElement.setAttribute("data-init", "loading");
 /*! @source http://purl.eligrey.com/github/classList.js/blob/1.2.20171210/classList.js */
